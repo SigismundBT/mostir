@@ -16,13 +16,6 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <a href="https://www.npmjs.com/package/mostir" target="_blank">
-          <img src="https://img.shields.io/npm/v/mostir" alt="npm version" />
-        </a>
-        <img src="https://img.shields.io/github/license/SigismundBT/mostir" alt="License" />
-        <img src="https://img.shields.io/node/v/mostir" alt="Node.js Version" />
-        <img src="https://img.shields.io/badge/language-TypeScript-blue" alt="TypeScript" />
-
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
@@ -42,6 +35,41 @@ export default function Home(): ReactNode {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
+        <div
+          style={{
+            backgroundColor: "var(--ifm-background-color)",
+            padding: "0.8rem",
+            textAlign: "center",
+          }}
+        >
+          <a
+            href="https://www.npmjs.com/package/mostir"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://img.shields.io/npm/v/mostir"
+              alt="npm version"
+              style={{ margin: "0 6px" }}
+            />
+          </a>
+          <img
+            src="https://img.shields.io/npm/l/mostir"
+            alt="License"
+            style={{ margin: "0 6px" }}
+          />
+          <img
+            src="https://img.shields.io/node/v/mostir"
+            alt="Node.js Version"
+            style={{ margin: "0 6px" }}
+          />
+          <img
+            src="https://img.shields.io/badge/language-TypeScript-blue"
+            alt="TypeScript"
+            style={{ margin: "0 6px" }}
+          />
+        </div>
+
       <HomepageHeader />
       <main>
         <HomepageFeatures />

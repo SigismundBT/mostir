@@ -3,6 +3,7 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  background-color: var(--ifm-background-color); /* ✅ 跟全局背景同步 */
 }
 
 .featureSvg {

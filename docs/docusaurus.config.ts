@@ -72,7 +72,7 @@ const config: Config = {
   themeConfig: {
     colorMode: {
       defaultMode: 'dark', 
-      disableSwitch: true,
+      disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     image: 'img/docusaurus-social-card.jpg',
