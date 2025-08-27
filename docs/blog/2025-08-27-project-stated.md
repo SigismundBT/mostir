@@ -7,6 +7,7 @@ date: 2025-08-27
 ---
 
 It's my pleasure to announce the release of **mostir v1.0.0** 🎉
+<!--truncate-->
 
 What started as a small helper around esbuild to streamline my own workflow has now grown into a standalone developer tool. With mostir, you can:
 

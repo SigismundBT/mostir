@@ -57,4 +57,4 @@ We welcome bug reports, feature requests, and pull requests.
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the [MIT License](../LICENSE).
+By contributing, you agree that your contributions will be licensed under the [MIT License](https://github.com/SigismundBT/mostir/blob/main/LICENSE).
