@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Mostir Blog</title>
-        <link>https://sigismundbt.github.io/mostir/blog</link>
+        <link>https://sigismundbt.github.io/mostir/blog/</link>
         <description>Mostir Blog</description>
         <lastBuildDate>Wed, 27 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Project Started]]></title>
-            <link>https://sigismundbt.github.io/mostir/blog/project-started</link>
-            <guid>https://sigismundbt.github.io/mostir/blog/project-started</guid>
+            <link>https://sigismundbt.github.io/mostir/blog/project-started/</link>
+            <guid>https://sigismundbt.github.io/mostir/blog/project-started/</guid>
             <pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[It's my pleasure to announce the release of mostir v1.0.0 🎉]]></description>
             <content:encoded><![CDATA[<p>It's my pleasure to announce the release of <strong>mostir v1.0.0</strong> 🎉</p>
@@ -25,7 +25,7 @@
 <li>🛠 <strong>Stay flexible</strong> – forward any esbuild option, no lock-in</li>
 </ul>
 <p>This tool has already helped me in my daily work, and I hope it can help you too.</p>
-<p>👉 Check out the <a href="https://sigismundbt.github.io/mostir/docs/getting-started">docs</a> to get started, or install directly with:</p>
+<p>👉 Check out the <a href="https://sigismundbt.github.io/mostir/docs/getting-started/">docs</a> to get started, or install directly with:</p>
 <div class="language-bash codeBlockContainer_IW3h theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_X1Bp"><pre tabindex="0" class="prism-code language-bash codeBlock_FyqG thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_Rnl5"><span class="token-line" style="color:#F8F8F2"><span class="token plain">pnpm add mostir -D</span><br></span></code></pre></div></div>
 <p>Thanks for trying it out — feedback and contributions are always welcome!</p>]]></content:encoded>
             <category>mostir</category>

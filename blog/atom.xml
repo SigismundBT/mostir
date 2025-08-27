@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sigismundbt.github.io/mostir/blog</id>
+    <id>https://sigismundbt.github.io/mostir/blog/</id>
     <title>Mostir Blog</title>
     <updated>2025-08-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://sigismundbt.github.io/mostir/blog"/>
+    <link rel="alternate" href="https://sigismundbt.github.io/mostir/blog/"/>
     <subtitle>Mostir Blog</subtitle>
     <icon>https://sigismundbt.github.io/mostir/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Project Started]]></title>
-        <id>https://sigismundbt.github.io/mostir/blog/project-started</id>
-        <link href="https://sigismundbt.github.io/mostir/blog/project-started"/>
+        <id>https://sigismundbt.github.io/mostir/blog/project-started/</id>
+        <link href="https://sigismundbt.github.io/mostir/blog/project-started/"/>
         <updated>2025-08-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[It's my pleasure to announce the release of mostir v1.0.0 🎉]]></summary>
         <content type="html"><![CDATA[<p>It's my pleasure to announce the release of <strong>mostir v1.0.0</strong> 🎉</p>
@@ -24,7 +24,7 @@
 <li>🛠 <strong>Stay flexible</strong> – forward any esbuild option, no lock-in</li>
 </ul>
 <p>This tool has already helped me in my daily work, and I hope it can help you too.</p>
-<p>👉 Check out the <a href="https://sigismundbt.github.io/mostir/docs/getting-started">docs</a> to get started, or install directly with:</p>
+<p>👉 Check out the <a href="https://sigismundbt.github.io/mostir/docs/getting-started/">docs</a> to get started, or install directly with:</p>
 <div class="language-bash codeBlockContainer_IW3h theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_X1Bp"><pre tabindex="0" class="prism-code language-bash codeBlock_FyqG thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_Rnl5"><span class="token-line" style="color:#F8F8F2"><span class="token plain">pnpm add mostir -D</span><br></span></code></pre></div></div>
 <p>Thanks for trying it out — feedback and contributions are always welcome!</p>]]></content>
         <author>
