@@ -14,17 +14,12 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://github.com/',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'SigismundBT', // Usually your GitHub org/user name.
-  projectName: 'mostir', // Usually your repo name.
-
+  url: 'https://sigismundbt.github.io', 
+  baseUrl: '/mostir/',                  
+  organizationName: 'SigismundBT',     
+  projectName: 'mostir',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
