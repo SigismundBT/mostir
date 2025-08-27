@@ -1,0 +1,9 @@
+mostir:
+  label: 'mostir'
+  permalink: '/mostir'
+  description: 'mostir'
+
+release:
+  label: 'release'
+  permalink: '/release'
+  description: 'release'

@@ -1,0 +1,19 @@
+:root {
+  --ifm-color-primary: #d4622b; /* 主色：暖橘，不刺眼 */
+  --ifm-color-primary-dark: #b94f1f;
+  --ifm-color-primary-darker: #9c4119;
+  --ifm-color-primary-darkest: #7a3314;
+  --ifm-color-primary-light: #e16f33;
+  --ifm-color-primary-lighter: #eb7e46;
+  --ifm-color-primary-lightest: #f29a6a;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #eb7e46; 
+  --ifm-color-primary-dark: #e16f33;
+  --ifm-color-primary-darker: #d4622b;
+  --ifm-color-primary-darkest: #b94f1f;
+  --ifm-color-primary-light: #f29a6a;
+  --ifm-color-primary-lighter: #f5a982;
+  --ifm-color-primary-lightest: #f9c7ad;
+}

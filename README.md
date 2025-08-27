@@ -1,3 +1,8 @@
+[![npm](https://img.shields.io/npm/v/mostir)](https://www.npmjs.com/package/mostir)
+![node-current](https://img.shields.io/node/v/mostir)
+![License](https://img.shields.io/github/license/SigismundBT/mostir)
+![TypeScript](https://img.shields.io/badge/language-TypeScript-blue)
+
 # mostir
 A lightweight CLI to streamline esbuild workflows
 Simplify and standardize esbuild builds with a flexible scaffold tool.

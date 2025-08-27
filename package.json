@@ -4,6 +4,7 @@
   "packageManager": "pnpm@10.15.0",
   "description": "Simplify and standardize esbuild builds with a flexible scaffold tool.",
   "license": "MIT",
+  
   "author": "SigismundBT",
   "repository": {
     "type": "git",
@@ -20,6 +21,9 @@
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "test": "vitest run",
     "dev": "pnpm run build",
