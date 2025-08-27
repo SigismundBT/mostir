@@ -84,13 +84,10 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docsVersionDropdown',
-        },
-        {
           type: 'docSidebar',
           sidebarId: 'docs',
           position: 'left',
-          label: 'Tutorial',
+          label: 'doc',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
