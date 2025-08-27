@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_site=self.webpackChunkdocs_site||[]).push([[34],{8856:e=>{e.exports=JSON.parse('{"tags":[{"label":"mostir","permalink":"/mostir/blog/tags/mostir","description":"mostir","count":1},{"label":"release","permalink":"/mostir/blog/tags/release","description":"release","count":1}]}')}}]);
