@@ -1,0 +1,51 @@
+{
+  "name": "mostir",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.15.0",
+  "description": "Simplify and standardize esbuild builds with a flexible scaffold tool.",
+  "license": "MIT",
+  "author": "SigismundBT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SigismundBT/mostir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SigismundBT/mostir/issues"
+  },
+  "homepage": "https://github.com/SigismundBT/mostir#readme",
+  "type": "module",
+  "bin": {
+    "mostir": "./dist/cli/bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "dev": "pnpm run build",
+    "build:type": "tsc --emitDeclarationOnly",
+    "build:js": "mostir build --s --v",
+    "build": "pnpm run build:type && pnpm run build:js",
+    "format": "prettier --write .",
+    "release": "bumpp --commit --tag",
+    "start": "node dist/cli/bin.js"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.3.0",
+    "@types/yargs": "^17.0.33",
+    "bumpp": "^10.2.3",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "dedent": "^1.6.0",
+    "esbuild": "^0.25.9",
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.1",
+    "p-limit": "^7.1.0",
+    "yargs": "^18.0.0"
+  }
+}

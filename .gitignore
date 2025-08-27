@@ -1,0 +1,13 @@
+
+node_modules/
+tempDir/
+dist/
+build.mjs
+
+*.log
+.cache
+.env
+.idea
+.DS_Store
+.eslintcache
+vitest.config.ts.map
