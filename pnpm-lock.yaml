@@ -42,6 +42,9 @@ importers:
       bumpp:
         specifier: ^10.2.3
         version: 10.2.3
+      mostir:
+        specifier: ^1.0.0
+        version: 1.0.0
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -620,6 +623,11 @@ packages:
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
+
+  mostir@1.0.0:
+    resolution: {integrity: sha512-zfRUMkZg1/TNlpz90+u3J7w1h2VmcCS/F54DMgVvdllfegaHdb2UY3XmRmc6AM6jccNxYbUWmAeLb00PMmXBfQ==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
@@ -1362,6 +1370,18 @@ snapshots:
     dependencies:
       braces: 3.0.3
       picomatch: 2.3.1
+
+  mostir@1.0.0:
+    dependencies:
+      chalk: 5.6.0
+      dedent: 1.6.0
+      esbuild: 0.25.9
+      fast-glob: 3.3.3
+      fs-extra: 11.3.1
+      p-limit: 7.1.0
+      yargs: 18.0.0
+    transitivePeerDependencies:
+      - babel-plugin-macros
 
   ms@2.1.3: {}
 

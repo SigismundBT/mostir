@@ -11,7 +11,7 @@ build.mjs
 .DS_Store
 .eslintcache
 vitest.config.ts.map
-
+*.d.ts.map
 
 # Docusaurus build output
 docs/build

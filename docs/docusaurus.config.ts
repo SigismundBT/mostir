@@ -18,7 +18,7 @@ const config: Config = {
   baseUrl: '/mostir/',                  
   organizationName: 'SigismundBT',     
   projectName: 'mostir',
-  trailingSlash: false,
+  trailingSlash: true,
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
