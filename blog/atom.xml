@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sigismundbt.github.io/mostir/blog/</id>
-    <title>Mostir Blog</title>
+    <title>mostir Blog</title>
     <updated>2025-08-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sigismundbt.github.io/mostir/blog/"/>
-    <subtitle>Mostir Blog</subtitle>
+    <subtitle>mostir Blog</subtitle>
     <icon>https://sigismundbt.github.io/mostir/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Project Started]]></title>

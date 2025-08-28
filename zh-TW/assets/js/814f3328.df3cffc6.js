@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_site=self.webpackChunkdocs_site||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"\u6700\u65b0\u6587\u7ae0","items":[{"title":"Project Started","permalink":"/mostir/zh-TW/blog/project-started","unlisted":false,"date":"2025-08-27T00:00:00.000Z"}]}')}}]);

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sigismundbt.github.io/mostir/zh-TW/blog/</id>
+    <title>mostir Blog</title>
+    <updated>2025-08-27T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sigismundbt.github.io/mostir/zh-TW/blog/"/>
+    <subtitle>mostir Blog</subtitle>
+    <icon>https://sigismundbt.github.io/mostir/zh-TW/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Project Started]]></title>
+        <id>https://sigismundbt.github.io/mostir/zh-TW/blog/project-started/</id>
+        <link href="https://sigismundbt.github.io/mostir/zh-TW/blog/project-started/"/>
+        <updated>2025-08-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's my pleasure to announce the release of mostir v1.0.0 🎉]]></summary>
+        <content type="html"><![CDATA[<p>It's my pleasure to announce the release of <strong>mostir v1.0.0</strong> 🎉</p>
+<p>What started as a small helper around esbuild to streamline my own workflow has now grown into a standalone developer tool. With mostir, you can:</p>
+<ul>
+<li>📦 <strong>Keep modules clean</strong> – zero-bundle builds with native esbuild</li>
+<li>⚡ <strong>Use glob patterns</strong> – <code>src/**/*.ts</code> works out of the box</li>
+<li>🔄 <strong>Sync instantly</strong> – mirror <code>src</code> to <code>outdir</code> and remove orphan files</li>
+<li>🧹 <strong>Clean fast</strong> – wipe your dist directory in one command</li>
+<li>🔧 <strong>Configure easily</strong> – manage builds with <code>mostir.config.mjs</code></li>
+<li>🛠 <strong>Stay flexible</strong> – forward any esbuild option, no lock-in</li>
+</ul>
+<p>This tool has already helped me in my daily work, and I hope it can help you too.</p>
+<p>👉 Check out the <a href="https://sigismundbt.github.io/mostir/zh-TW/docs/getting-started/">docs</a> to get started, or install directly with:</p>
+<div class="language-bash codeBlockContainer__C2L theme-code-block" style="--prism-color:#d6deeb;--prism-background-color:#011627"><div class="codeBlockContent_jIAg"><pre tabindex="0" class="prism-code language-bash codeBlock_JWCt thin-scrollbar" style="color:#d6deeb;background-color:#011627"><code class="codeBlockLines_jcD9"><span class="token-line" style="color:#d6deeb"><span class="token plain">pnpm add mostir -D</span><br></span></code></pre></div></div>
+<p>Thanks for trying it out — feedback and contributions are always welcome!</p>]]></content>
+        <author>
+            <name>Peyton Lu</name>
+            <uri>https://linkedin.com/in/yangshun</uri>
+        </author>
+        <category label="mostir" term="mostir"/>
+        <category label="release" term="release"/>
+    </entry>
+</feed>

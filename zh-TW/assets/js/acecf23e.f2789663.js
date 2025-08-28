@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_site=self.webpackChunkdocs_site||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/mostir/zh-TW/blog","blogTitle":"Blog","authorsListPath":"/mostir/zh-TW/blog/authors"}')}}]);

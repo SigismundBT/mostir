@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_site=self.webpackChunkdocs_site||[]).push([[838],{9691:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/mostir/zh-TW/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"\u7db2\u8a8c","blogTitle":"\u7db2\u8a8c"}}')}}]);
