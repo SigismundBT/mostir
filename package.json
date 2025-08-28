@@ -1,6 +1,6 @@
 {
   "name": "mostir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "pnpm@10.15.0",
   "description": "Simplify and standardize esbuild builds with a flexible scaffold tool.",
   "license": "MIT",
