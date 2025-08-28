@@ -26,7 +26,7 @@
 </ul>
 <p>This tool has already helped me in my daily work, and I hope it can help you too.</p>
 <p>👉 Check out the <a href="https://sigismundbt.github.io/mostir/docs/getting-started/">docs</a> to get started, or install directly with:</p>
-<div class="language-bash codeBlockContainer_IW3h theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_X1Bp"><pre tabindex="0" class="prism-code language-bash codeBlock_FyqG thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_Rnl5"><span class="token-line" style="color:#F8F8F2"><span class="token plain">pnpm add mostir -D</span><br></span></code></pre></div></div>
+<div class="language-bash codeBlockContainer__C2L theme-code-block" style="--prism-color:#d6deeb;--prism-background-color:#011627"><div class="codeBlockContent_jIAg"><pre tabindex="0" class="prism-code language-bash codeBlock_JWCt thin-scrollbar" style="color:#d6deeb;background-color:#011627"><code class="codeBlockLines_jcD9"><span class="token-line" style="color:#d6deeb"><span class="token plain">pnpm add mostir -D</span><br></span></code></pre></div></div>
 <p>Thanks for trying it out — feedback and contributions are always welcome!</p>]]></content:encoded>
             <category>mostir</category>
             <category>release</category>
