@@ -21,3 +21,8 @@
   --ifm-background-color: #1e1e1e; 
   --ifm-background-surface-color: #2a2a2a;
 }
+
+.footer {
+  --ifm-footer-background-color: #111;
+  background-color: var(--ifm-footer-background-color) !important;
+}

@@ -2,6 +2,7 @@ import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Translate, { translate } from '@docusaurus/Translate';
 
 type FeatureItem = {
   title: string;
@@ -13,34 +14,98 @@ const EmptySvg = () => <></>;
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '📦 Keep modules clean',
+    title: translate({
+      id: 'feature.keepModulesClean',
+      message: '📦 Keep modules clean',
+    }),
     Svg: EmptySvg,
-    description: <>Run zero-bundle builds with native esbuild.</>,
+    description: (
+      <Translate id="feature.keepModulesClean.desc">
+        {'Run zero-bundle builds with native esbuild.'}
+      </Translate>
+    ),
   },
   {
-    title: '⚡ Use glob patterns',
+    title: translate({
+      id: 'feature.useGlob',
+      message: '⚡ Use glob patterns',
+    }),
     Svg: EmptySvg,
-    description: <><code>src/**/*.ts</code> works out of the box.</>,
+    description: (
+      <Translate
+        id="feature.useGlob.desc"
+        values={{
+          pattern: <code>src/**/*.ts</code>,
+        }}
+      >
+        {'{pattern} works out of the box.'}
+      </Translate>
+    ),
   },
   {
-    title: '🔄 Sync instantly',
+    title: translate({
+      id: 'feature.syncInstantly',
+      message: '🔄 Sync instantly',
+    }),
     Svg: EmptySvg,
-    description: <>Mirror <code>indir</code> to <code>outdir</code> and remove orphan files.</>,
+    description: (
+      <Translate
+        id="feature.syncInstantly.desc"
+        values={{
+          src: <code><Translate id="feature.syncInstantly.src" /></code>,
+          dist: <code><Translate id="feature.syncInstantly.dist" /></code>,
+        }}
+      >
+        {'Mirror {src} to {dist} and remove orphan files.'}
+      </Translate>
+    ),
   },
   {
-    title: '🧹 Clean fast',
+    title: translate({
+      id: 'feature.cleanFast',
+      message: '🧹 Clean fast',
+    }),
+
     Svg: EmptySvg,
-    description: <>Wipe your dist directory in one command.</>,
+    description: (
+      <Translate
+        id="feature.cleanFast.desc"
+        values={{
+          dist: <code><Translate id="feature.cleanFast.dist" /></code>,
+        }}
+      >
+        {'Wipe your {dist} in one command.'}
+      </Translate>
+    ),
   },
   {
-    title: '🔧 Configure easily',
+    title: translate({
+      id: 'feature.configureEasily',
+      message: '🔧 Configure easily',
+    }),
     Svg: EmptySvg,
-    description: <>Manage builds with <code>mostir.config.mjs</code>.</>,
+    description: (
+      <Translate
+        id="feature.configureEasily.desc"
+        values={{
+          config: <code>mostir.config.mjs</code>,
+        }}
+      >
+        {'Manage builds with {config}.'}
+      </Translate>
+    ),
   },
   {
-    title: '🛠 Stay flexible',
+    title: translate({
+      id: 'feature.stayFlexible',
+      message: '🛠 Stay flexible',
+    }),
     Svg: EmptySvg,
-    description: <>Forward any esbuild option, no lock-in.</>,
+    description: (
+      <Translate id="feature.stayFlexible.desc">
+        {'Forward any esbuild option, no lock-in.'}
+      </Translate>
+    ),
   },
 ];
 

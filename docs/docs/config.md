@@ -1,6 +1,6 @@
 # ⚙️ Config
 
-Mostir uses a `mostir.config.mjs` file at the project root.
+mostir uses a `mostir.config.mjs` file at the project root.
 
 ## Options
 

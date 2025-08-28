@@ -1,11 +1,10 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Mostir',
+  title: 'mostir',
   tagline:  'Simplify and standardize esbuild builds with a flexible scaffold tool.',
   favicon: 'img/favicon.ico',
 
@@ -28,7 +27,15 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-TW'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US',
+      },
+      'zh-TW': {
+        htmlLang: 'zh-Hant-TW',
+      },
+    },
   },
 
   presets: [
@@ -84,12 +91,17 @@ const config: Config = {
           position: 'left',
           label: 'doc',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/SigismundBT/mostir',
           label: 'GitHub',
           position: 'right',
-        }
+        },
+
       ],
     },
     footer: {
@@ -131,7 +143,7 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.nightOwl,
     },
   } satisfies Preset.ThemeConfig,
 };

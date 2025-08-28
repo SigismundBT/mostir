@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "mostir",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "網站Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.doc": {
+    "message": "文件",
+    "description": "Navbar item with label doc"
+  },
+  "item.label.Blog": {
+    "message": "網誌",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

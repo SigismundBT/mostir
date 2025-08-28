@@ -46,6 +46,7 @@ mostir build
 ## 📖 Documentation
 
 📖 Full documentation → [mostir docs](https://sigismundbt.github.io/mostir)  
+📖完整文件 → [mostir 文件（繁中）](https://sigismundbt.github.io/mostir/zh-TW/)
 
 ---
 

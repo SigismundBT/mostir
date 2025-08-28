@@ -5,10 +5,11 @@ This page shows advanced usage for `mostir.config.mjs`.
 ---
 
 ## Setting up Config
-You don’t have to create `mostir.config.mjs` from scratch with `mostir init` every time.  
-Just copy one from another project or a template, then tweak the settings to fit your project.
+You don’t need to run `mostir init` to create a fresh `mostir.config.mjs` every time.
+Instead, just copy one from another project (or a template) and tweak the settings for your case.
 
-- For example: [my personal init kit](https://github.com/SigismundBT/tskit), an opinionated ready-to-use dev kit with preconfigured packages and folder structure.
+**Example**
+- [mostir Github Repository](https://github.com/SigismundBT/mostir/), mostir itself is built with mostir build, using its own config.
 
 ---
 
@@ -52,4 +53,4 @@ export default {
 ## Notes
 - Use `absolute: true` with fast-glob to ensure esbuild receives fully resolved paths.  
 - The `ignore` array can be reused for both `fast-glob` and the `ignore` option in `mostir`.  
-- This pattern is useful if you want fine-grained control over which files to include/exclude (especially in monorepo setups).
+- `ignore` pattern is useful if you want fine-grained control over which files to include/exclude (especially in monorepo setups).

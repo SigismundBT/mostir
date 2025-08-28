@@ -73,7 +73,7 @@ Synchronize `dist dir` with `source dir` (removes orphan files).
     - `.d.ts.map`
 
 **Example**
-If `/src/foo.ts` is deleted, then `outdir/foo.js`, `foo.d.ts`, and `foo.js.map` will be removed.
+- If `/src/foo.ts` is deleted, then `outdir/foo.js`, `foo.d.ts`, and `foo.js.map` will be removed.
 
 **Options**
 - `--verbose, -v`

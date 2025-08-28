@@ -13,9 +13,10 @@ build.mjs
 vitest.config.ts.map
 *.d.ts.map
 
+docs/
+
 # Docusaurus build output
 docs/build
-
 docs/node_modules
 
 # Docusaurus Generated files

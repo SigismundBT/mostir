@@ -44,7 +44,7 @@ mostir build
 ## 🧹 Useful Commands
 
 - `mostir build --sync` → Sync `dist dir` with `source dir` first ,then run esbuild with your config  
-- `mostir sync` → Sync outdir with src (remove orphan files)  
-- `mostir clean` → Clear all files inside outdir  
+- `mostir sync` → Sync `dist dir` with `source dir` (remove orphan files)  
+- `mostir clean` → Clear all files inside `dist dir`  
 
 For more details and available options, see the [Commands](./commands.md) section.
